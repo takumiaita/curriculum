@@ -1,0 +1,22 @@
+IPv6アドレス--関連用語 課題
+
+例：MACアドレス：1111.1111.1111
+インターフェースID：13 11 11 FF FE 11 11 11
+
+ 128 64 32 16 8 4 2 1
+（１）MACアドレス：AAAA.AAAA.AAAA
+               AAAAAAFFFEAAAAAA
+               AA→170→10101010→10101000→168→A8
+     インターフェイスID:A8 AA AA FF FE AA AA AA
+
+（２）MACアドレス：9876.5432.10FE
+               987654FFFE3210FE
+               98→152→10011000→10011010→154→9A
+     インターフェイスID:9A 76 54 FF FE 32 10 FE
+
+（３）MACアドレス：FFFF.FFFF.FFFF
+               FFFFFFFFFEFFFFFF
+               FF→15*16+15=255→11111111→11111101→253→FD
+     インターフェイスID:FD FF FF FF FE FF FF FF
+
+以上よろしくお願いします。
